@@ -33,14 +33,18 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->fetch('script');
 		echo $this->Html->css(array(
 			'bootstrap.css',
-			'main.css'
+			'vertical.css'
 		));
 		echo $this->Html->script(array(
 			'jquery.min.js',
-			'bootstrap.js',
+			//'bootstrap.js',
 			'ScrollMagic.js',
+			'debug.addIndicators.min.js',
 			'TweenMax.min.js',
-			'main.js'
+			'animation.gsap.js',
+			'velocity.min.js',
+			'animation.velocity.js',
+			'vertical.js'
 		));
 	?>
 </head>

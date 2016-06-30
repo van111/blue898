@@ -1,18 +1,29 @@
 <div id="pinContainer">
   <div id="slideContainer">
-    <div class="col-3 box one">
-        <div class="col-md-3 left-panel">
+    <div class="col-3 box one" id="first">
+        <div class="col-md-2 left-panel grey-gradient-box">
+          <div class="logo">
+            <img src="/blue/img/main/1.png" height="100%" width="80%"/>
+          </div>
+          <div class="fixed-center-img place-to-bottom">
+            <img src="/blue/img/main/3.png" height="100%" width="80%" class="center-img"/>
+          </div>
+        </div>
+        <div class="col-md-9">
           HELLO
         </div>
-        <div class="col-md-7">
-          HELLO
-        </div>
-        <div class="col-md-2 right-panel">
-          WORLD
+        <div class="col-md-1 right-panel ">
+          <div class="menu-1 blue-gradient-box">
+            <p>Homepage</p>
+            <p>About Me</p>
+            <p>Services</p>
+            <p>Contact Me</p>
+          </div>
         </div>
       <!-- This content will take up 3/12 (or 1/4) of the container -->
     </div>
-    <div class="col-3 box two">
+
+    <div class="col-3 box two" id="second">
       <h1>About</h1>
       <div class="row">
         <div class="col-md-4">
@@ -36,17 +47,17 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 
       <!-- This content will take up 3/12 (or 1/4) of the container -->
     </div>
-    <div class="col-6 box three">
-      <div class="col-md-8">
+    <div class="col-6 box">
+      <div class="col-md-8 three">
         <div class="gradient_box skill-box">
           <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-3">
               <h2>SKILLS</h2>
             </div>
             <div class="col-xs-7">.col-xs-6</div>
           </div>
           <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-3">
               <img src="/blue/img/main/14.png" height="100%" width="80%"/>
             </div>
             <div class="col-xs-7">
@@ -54,7 +65,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-3">
               <img src="/blue/img/main/14.png" height="100%" width="80%"/>
             </div>
             <div class="col-xs-7">
@@ -62,7 +73,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-3">
               <img src="/blue/img/main/14.png" height="100%" width="80%"/>
             </div>
             <div class="col-xs-7">
@@ -71,9 +82,17 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-1 right-panel">
+        <div class="menu-1 blue-gradient-box">
+          <p>Homepage</p>
+          <p>About Me</p>
+          <p>Services</p>
+          <p>Contact Me</p>
+        </div>
       </div>
       <!-- This content will take up 6/12 (or 1/2) of the container -->
+    </div>
+    <div class="col-6 box">
     </div>
   </div>
 </div>
