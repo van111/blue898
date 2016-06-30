@@ -1,7 +1,7 @@
 $(function(){
   // init
   var controller = new ScrollMagic.Controller();
-  var ctr = new ScrollMagic.Controller();
+  var ctrl = new ScrollMagic.Controller();
 
   // define movement of panels
   var wipeAnimation = new TimelineMax()
@@ -21,25 +21,32 @@ $(function(){
     .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
-  var tween = TweenMax.from("#four", 0.5, {autoAlpha:0, scale:0.7});
+    // init controller
+	var controller = new ScrollMagic.Controller();
 
-  var scene = new ScrollMagic.Scene({
-    triggerElement: "a#start",
-    duration: 200,
-    triggerHook: "onLeave"
-  })
-  .setTween(tween)
-  .addIndicators()
-  .addTo(ctrl);
+	// build tween
+	var tween = TweenMax.from("#animate", 0.5, {autoAlpha: 0, scale: 0.7});
 
-  //  bind scroll to anchor links
+	// build scene
+	var scene = new ScrollMagic.Scene({triggerElement: "div#start", duration: 200, triggerHook: "onLeave"})
+					.setTween(tween)
+					.addIndicators() // add indicators (requires plugin)
+					.addTo(controller);
+
+	// change behaviour of controller to animate scroll instead of jump
+	controller.scrollTo(function (newpos) {
+		TweenMax.to(window, 0.5, {scrollTo: {y: newpos}});
+	});
+
+	//  bind scroll to anchor links
 	$(document).on("click", "a[href^='#']", function (e) {
 		var id = $(this).attr("href");
+    console.log(id);
 		if ($(id).length > 0) {
 			e.preventDefault();
 
 			// trigger scroll
-			controller.scrollTo(id);
+			controller.scrollTo(id, 0);
 
 				// if supported by the browser we can even update the URL.
 			if (window.history && window.history.pushState) {
@@ -47,4 +54,15 @@ $(function(){
 			}
 		}
 	});
+
+    // $("a").click(function() {
+    //    scrollToAnchor($(this).attr('href'));
+    // });
+
 });
+
+// function scrollToAnchor(aid){
+//   var aTag = $(aid);
+//   console.log(aTag.offset());
+//   $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+// }

@@ -4,6 +4,8 @@
   		<p><a href="#start">Top</a></p>
   		<p><a href="#one">Middle</a></p>
   		<p><a href="#two">Bottom</a></p>
+      <p><a href="#three">Bottom</a></p>
+      <p><a href="#four">Bottom</a></p>
   </fieldset>
 </div>
 
