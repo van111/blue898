@@ -3,10 +3,10 @@
     <div class="col-3 box one" id="first">
         <div class="col-md-2 left-panel grey-gradient-box">
           <div class="logo">
-            <img src="/blue/img/main/1.png" height="100%" width="80%"/>
+            <img src="/blue898/img/main/1.png" height="100%" width="80%"/>
           </div>
           <div class="fixed-center-img place-to-bottom">
-            <img src="/blue/img/main/3.png" height="100%" width="80%" class="center-img"/>
+            <img src="/blue898/img/main/3.png" height="100%" width="80%" class="center-img"/>
           </div>
         </div>
         <div class="col-md-9">
@@ -33,7 +33,7 @@
           </p>
         </div>
         <div class="col-md-4 icon31">
-          <!-- <img src="/blue/img/main/31.png" height="100%" width="100%"/> -->
+          <!-- <img src="/blue898/img/main/31.png" height="100%" width="100%"/> -->
         </div>
         <div class="col-md-4">
           <h2>EDUCATION</h2>
@@ -58,7 +58,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
           </div>
           <div class="row">
             <div class="col-xs-3">
-              <img src="/blue/img/main/14.png" height="100%" width="80%"/>
+              <img src="/blue898/img/main/14.png" height="100%" width="80%"/>
             </div>
             <div class="col-xs-7">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
@@ -66,7 +66,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
           </div>
           <div class="row">
             <div class="col-xs-3">
-              <img src="/blue/img/main/14.png" height="100%" width="80%"/>
+              <img src="/blue898/img/main/14.png" height="100%" width="80%"/>
             </div>
             <div class="col-xs-7">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
@@ -74,7 +74,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
           </div>
           <div class="row">
             <div class="col-xs-3">
-              <img src="/blue/img/main/14.png" height="100%" width="80%"/>
+              <img src="/blue898/img/main/14.png" height="100%" width="80%"/>
             </div>
             <div class="col-xs-7">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).

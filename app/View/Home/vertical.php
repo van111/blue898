@@ -1,4 +1,4 @@
-<div class="anchor">
+<!-- <div class="anchor">
   <fieldset>
   		<legend>Anchor Links</legend>
   		<p><a href="#start">Top</a></p>
@@ -7,20 +7,21 @@
       <p><a href="#three">Bottom</a></p>
       <p><a href="#four">Bottom</a></p>
   </fieldset>
-</div>
+</div> -->
 
 <div class="col-3 outSidePin">
   <div class="col-3 box start" id="start">
-      <div class="col-md-2 left-panel grey-gradient-box">
+      <!-- <div class="col-md-2 left-panel grey-gradient-box">
         <div class="logo">
-          <img src="/blue/img/main/1.png" height="100%" width="80%"/>
+          <img src="/blue898/img/main/1.png" height="100%" width="80%"/>
         </div>
         <div class="fixed-center-img place-to-bottom">
-          <img src="/blue/img/main/3.png" height="100%" width="80%" class="center-img"/>
+          <img src="/blue898/img/main/3.png" height="100%" width="80%" class="center-img"/>
         </div>
-      </div>
-      <div class="col-md-9">
-        HELLO
+      </div> -->
+      <div class="center-block">
+        <p>Hi! I'm Evangeline Camallere and I am able to work back-end and front-end as a web developer.</p>
+        <p>Exposed to javascript, jquery, html, PHP native and some variety of PHP frameworks. </p>
       </div>
     <!-- This content will take up 3/12 (or 1/4) of the container -->
   </div>
@@ -31,11 +32,11 @@
     <div class="row">
       <div class="col-md-4">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          ..
         </p>
       </div>
       <div class="col-md-4 icon31">
-        <!-- <img src="/blue/img/main/31.png" height="100%" width="100%"/> -->
+        <!-- <img src="/blue898/img/main/31.png" height="100%" width="100%"/> -->
       </div>
       <div class="col-md-4">
         <h2>EDUCATION</h2>
@@ -68,7 +69,7 @@
         </div>
         <div class="row">
           <div class="col-xs-3">
-            <img src="/blue/img/main/14.png" height="100%" width="80%"/>
+            <img src="/blue898/img/main/14.png" height="100%" width="80%"/>
           </div>
           <div class="col-xs-7">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -76,7 +77,7 @@
         </div>
         <div class="row">
           <div class="col-xs-3">
-            <img src="/blue/img/main/14.png" height="100%" width="80%"/>
+            <img src="/blue898/img/main/14.png" height="100%" width="80%"/>
           </div>
           <div class="col-xs-7">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -84,7 +85,7 @@
         </div>
         <div class="row">
           <div class="col-xs-3">
-            <img src="/blue/img/main/14.png" height="100%" width="80%"/>
+            <img src="/blue898/img/main/14.png" height="100%" width="80%"/>
           </div>
           <div class="col-xs-7">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
