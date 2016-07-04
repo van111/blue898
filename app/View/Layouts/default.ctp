@@ -32,12 +32,14 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 		echo $this->Html->css(array(
+			'reset.css',
 			'bootstrap.css',
 			'vertical.css'
 		));
 		echo $this->Html->script(array(
 			'jquery.min.js',
-			//'bootstrap.js',
+			'tether.min.js',
+			'bootstrap.js',
 			'ScrollMagic.js',
 			'debug.addIndicators.min.js',
 			'TweenMax.min.js',
@@ -49,14 +51,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-		</div>
-		<div id="content">
-			<?php echo $this->fetch('content'); ?>
-		</div>
-		<div id="footer">
-		</div>
-	</div>
+	<?php echo $this->fetch('content'); ?>
 </body>
 </html>
