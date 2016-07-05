@@ -26,7 +26,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<?php echo $this->fetch('title'); ?>
 	</title>
 	<?php
-		echo $this->Html->meta('icon');
+		//echo $this->Html->meta('icon');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -49,6 +49,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			'vertical.js'
 		));
 	?>
+	<link rel="shortcut icon" type="image/png" href="http://localhost/blue898/app/webroot/img/favicon-16x16.png"/>
 </head>
 <body>
 	<?php echo $this->fetch('content'); ?>

@@ -2,6 +2,14 @@ $(function(){
 
   var controller = new ScrollMagic.Controller();
 
+  // new ScrollMagic.Scene({
+  //   triggerElement: ".start",
+  //   triggerHook: "onLeave",
+  //   duration: "200%"
+  // }).setPin("#pinContainer .start .right-div", {
+  //   pushFollowers: false
+  // }).addTo(controller);
+
   new ScrollMagic.Scene({
     triggerElement: ".one",
     triggerHook: "onEnter",
