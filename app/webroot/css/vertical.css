@@ -40,6 +40,10 @@ body {
   z-index: 5;
 }
 
+.center-div {
+  margin: 0 auto;
+}
+
 /* customize */
 
 #start .right-div .trans-img{
@@ -71,6 +75,9 @@ body {
 .right-div {
   height: 100%;
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .trans-img {
@@ -89,6 +96,10 @@ body {
   -webkit-box-shadow: inset 10px 10px 120px 78px rgba(82,82,82,1);
 -moz-box-shadow: inset 10px 10px 120px 78px rgba(82,82,82,1);
 box-shadow: inset 10px 10px 120px 78px rgba(82,82,82,1);
+}
+
+#pinContainer div .right-div .trans-img {
+  opacity: 0.1;
 }
 
 .one {
@@ -300,4 +311,13 @@ box-shadow: inset 10px 10px 120px 78px rgba(82,82,82,1);
     background: #6C6;
     background: url('/blue898/img/main/40.png') 0 0 no-repeat;
     background-size: contain;
+}
+
+.circle-img {
+  width: 200px;
+  height: 200px;
+  background: url('/blue898/img/main/first.jpg') 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
 }
