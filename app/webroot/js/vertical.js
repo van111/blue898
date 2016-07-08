@@ -34,14 +34,14 @@ $(function(){
     pushFollowers: false
   }).addTo(controller);
 
-  new ScrollMagic.Scene({
-    triggerElement: ".four",
-    triggerHook: "onEnter",
-    duration: "100%"
-  }).setPin("#pinContainer .four .right-div", {
-    pushFollowers: false
-  }).addTo(controller);
-
+  // new ScrollMagic.Scene({
+  //   triggerElement: ".four",
+  //   triggerHook: "onEnter",
+  //   duration: "100%"
+  // }).setPin("#pinContainer .four .right-div", {
+  //   pushFollowers: false
+  // }).addTo(controller);
+  //
 
   // init
   // var controller = new ScrollMagic.Controller();
